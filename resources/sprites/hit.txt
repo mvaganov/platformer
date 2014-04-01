@@ -1,0 +1,2 @@
+/sprites/particle/hit.png
+4 16 16 70   explosion 0  /sfx/scratch.wav -10 -8 -8 0

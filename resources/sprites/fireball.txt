@@ -1,0 +1,3 @@
+/sprites/particle/fireball.gif
+4 30 30 70   ball 1 0                 0 -15 -15 2 -2 -2 2 2 -7 -7 7 7
+3 30 30 70   poof 0 /sfx/fire_exp.wav 0 -15 -15 1 -7 -7 7 7 

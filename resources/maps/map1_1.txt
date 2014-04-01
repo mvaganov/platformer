@@ -1,0 +1,48 @@
+29 // how many palette entries there are
+  // 0 empty
+1 // 1 left side of floor
+2 // 2 right side of floor
+] // 3 wall to right (empty)
+[ // 4 wall to left (empty)
+5 // 5 wall to right (ground)
+6 // 6 wall to left (ground)
+7 // 7 gap in floor (filled)
+8 // 8 gap in ground (empty)
+9 // 9 grass
+! // 10 flower
+, // 11 weeds
+M // 12 movement icon
+W // 13 W icon
+E // 14 W+E icon
+R // 15 R icon
+F // 16 F icon
+` // 17 ground above
+" // 18 ground above and to right
+' // 19 ground above and to left
+X // 20 empty again
+^X// 21 ground
+#X// 22 filled ground
+<X// 23 platform left
+_X// 24 platform middle
+>X// 25 platform right
+Pp// 26 player start
+eeEvilEye// 27 'e' labels that it's an enemy, followed by the class name
+feFloaty// 28
+/tilesets/grasstileset.gif	// file with image data
+1 // how many frame sets are in this image
+    -1 30 30 // (# of frames, -1 means read all) (frame with) (frame height)
+110 12 // (width) (height)
+#[   ]#[                                   ]##################################################################
+#[   ]#[                                   ]########'```"#####################################################
+#[ M ]#[                                   ]########[    ```````````````````````````````"#####################
+#[  P]#[                                   ]#######5^^2ee  ee  ee  ee  ee    1^2         "####################
+#[   1^2                                   ]#########5^^^^^^^^^^^^^^^^^^^^^^^^^^2         "###################
+#[ <___>                                    "###############'`````````"####'````      e    "#####'```````"####
+#[             E                        !    ```"###########[  F  f    `"##[       <> <>    "####[eeeeeee]####
+#[<>  W        ,                  ,!e  <_>       ``"#######'  ! ,   f    ``    9    1^2      "###[eeeeeee]####
+#[          ,1^^2          R     <__>        9,     ```````  1^^^2     f  f    <_>  ]#[   <>  ``` eeeeeee]####
+#[        1^^^6#[     !9   e  !      ,     1^^^^2 e 9 e  9 e ]###[                  ]#[   f     f eeeeeee]####
+#[91^8^^2,]#####[   1^^^^2  91^^2 91^^2    ]####[! 1^2  1^2,1^6##[       9  !9  ,  1^7^2      1^^2e!,eeee]####
+5^^^7^65^^^6####[   ]###5^^^^^65^^^^6#[    ]###5^^^^^^^^^^^^^6###[     1^^^^^^^^^^^^6#5^^^^^^^^65^^^^^^^^^6###
+/music/map1_1.mp3 -15
+10 2

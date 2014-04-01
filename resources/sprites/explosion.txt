@@ -1,0 +1,2 @@
+/sprites/particle/explosion.gif
+6 30 30 70   explosion 0  /sfx/death.wav 6 -15 -15 1 -10 -10 10 10

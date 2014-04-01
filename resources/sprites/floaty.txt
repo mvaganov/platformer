@@ -1,0 +1,2 @@
+/sprites/enemies/floaty.png
+2 32 16 100   float 1 0 0 -16 -8 2 -10 -10 9 9 -16 -7 15 12
