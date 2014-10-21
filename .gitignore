@@ -1,3 +1,4 @@
 *.class
 *.jar
 [Bb]in/
+.settings/
