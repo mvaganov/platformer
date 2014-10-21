@@ -1,7 +1,8 @@
 /sprites/player/playersprite.png
 // 0(# of frames) 1(frame width) 2(frame height) 3(millis delay per frame) 4(animation name) 
-// 5(loop 0/1) 6(sound) 7(sound gain) 7(# of collision rectangles) 8(draw offset X) 9(draw offset Y)
-// 10(collision x offset) 11(collision y offset) 12(collision width) 13(collision height)
+// 5(loop 0/1) 6(sound) 7(sound gain) 8(draw offset X) 9(draw offset Y) 10(# of collision rectangles)
+// 11(collision x offset) 12(collision y offset) 13(collision width) 14(collision height)
+// [15(damage x offset)] [15(damage y offset)] [15(damage width)] [15(damage height)] 
 2 30 30 250   idle   1 0             0       -15 -15 1 -10 -10 10 10
 8 30 30 40    walk   1 0             0       -15 -15 1 -10 -10 10 10
 2 30 30 100   jump   0 /sfx/jump.wav -15     -15 -15 1 -10 -10 10 10
