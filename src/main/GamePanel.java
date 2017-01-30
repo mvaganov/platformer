@@ -74,7 +74,6 @@ public class GamePanel extends JPanel implements Runnable, KeyListener, MouseLis
 		while(running) {
 			Timer.update();
 			update((int)Timer.deltaTimeMS);
-			draw();
 			repaint();//drawToScreen();
 			
 			wait = targetTime - Timer.currentFrameDurationMS();
@@ -97,7 +96,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener, MouseLis
 //	}
 	public void paintComponent(Graphics g)
 	{
-		super.paintComponent(g);
+		draw();
 		g.drawImage(image, 0, 0, pixelSize.x*SCALE, pixelSize.y*SCALE, null);
 	}
 	
@@ -108,6 +107,5 @@ public class GamePanel extends JPanel implements Runnable, KeyListener, MouseLis
 	public void mouseEntered(MouseEvent arg0) {}
 	public void mouseExited(MouseEvent arg0) {}
 	public void mousePressed(MouseEvent arg0) {gsm.mousePress(arg0);}
-	public void mouseReleased(MouseEvent arg0) {
-	}
+	public void mouseReleased(MouseEvent arg0) {}
 }

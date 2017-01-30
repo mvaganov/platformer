@@ -30,14 +30,8 @@ public class Vec2D extends Point2D.Double {
 	public void drawTo(Graphics2D g, Vec2D destination){
 		g.drawLine((int)x, (int)y, (int)destination.x, (int)destination.y);
 	}
-	public void clapToInt(){
-		x = (int)x;
-		y = (int)y;
-	}
-	public void roundToInt() {
-		x = (int)(x+0.5);
-		y = (int)(y+0.5);
-	}
+	public void clapToInt(){ x = (int)x; y = (int)y; }
+	public void roundToInt() { x = (int)(x+0.5); y = (int)(y+0.5); }
 	public double magnitudeSq(){return x*x+y*y;}
 	public double magnitude(){return Math.sqrt(magnitudeSq());}
 	public void normalize(){double m=magnitude();x/=m;y/=m;}
